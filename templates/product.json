@@ -174,7 +174,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "Small Vacuum, Big Cleaning Power.",
             "text_size": 20,
             "link": ""
           }
@@ -203,7 +203,7 @@
         "heading_Qyj8AP": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Powerful Cleaning Anywhere",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -211,7 +211,7 @@
         "text_V89NwX": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Keep your car, desk, keyboard, and home spotless with the 3-in-1 Mini Vacuum Cleaner. Designed for convenience and portability, this compact device vacuums, blows away dust, and reaches tight spaces with ease. Its cordless design and versatile attachments make quick cleanups faster and more efficient than ever.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -223,6 +223,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1763038072_phpeq3ffrmvlj9kb7Veeml.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -255,7 +256,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "Keep Every Corner Dust-Free in Seconds",
             "text_size": 20,
             "link": ""
           }
@@ -284,7 +285,7 @@
         "heading_WWAYAk": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Say Goodbye to Dust & Crumbs",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -292,7 +293,7 @@
         "text_CjPixL": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Experience effortless cleaning with the 3-in-1 Mini Vacuum Cleaner. Whether you're tidying up your car, workspace, or home, its powerful suction and multifunctional attachments help you clean hard-to-reach areas in seconds. Compact, cordless, and easy to use, it's the perfect tool for everyday cleaning.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -304,6 +305,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/1763038072_php4sj5s84fdo3t15rsEFO.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -331,6 +333,28 @@
       "type": "_blocks",
       "name": "Benefits table",
       "settings": {}
+    },
+    "custom_liquid_qAVPhX": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.benefits-table {\n  width: 100%;\n  max-width: 700px;\n  margin: 25px auto;\n  border-collapse: collapse;\n  font-family: inherit;\n  text-align: center;\n}\n\n.benefits-table th {\n  background: #264854;\n  color: #fff;\n  padding: 14px;\n  font-size: 16px;\n}\n\n.benefits-table td {\n  border: 1px solid #ddd;\n  padding: 14px;\n  font-size: 15px;\n}\n\n.benefits-table tr:nth-child(even) {\n  background: #f7f7f7;\n}\n\n.benefit-name {\n  text-align: left;\n  font-weight: 600;\n}\n\n.yes {\n  color: #16a34a;\n  font-weight: 700;\n}\n\n.no {\n  color: #dc2626;\n  font-weight: 700;\n}\n</style>\n\n<table class=\"benefits-table\">\n  <tr>\n    <th>Benefits</th>\n    <th>Us</th>\n    <th>Others</th>\n  </tr>\n\n  <tr>\n    <td class=\"benefit-name\">3-in-1 Vacuum + Blower</td>\n    <td class=\"yes\">Yes</td>\n    <td class=\"no\">No</td>\n  </tr>\n\n  <tr>\n    <td class=\"benefit-name\">Multiple Cleaning Heads</td>\n    <td class=\"yes\">Yes</td>\n    <td class=\"no\">No</td>\n  </tr>\n\n  <tr>\n    <td class=\"benefit-name\">Compact & Portable</td>\n    <td class=\"yes\">Yes</td>\n    <td class=\"no\">No</td>\n  </tr>\n\n  <tr>\n    <td class=\"benefit-name\">Easy USB Charging</td>\n    <td class=\"yes\">Yes</td>\n    <td class=\"no\">No</td>\n  </tr>\n\n  <tr>\n    <td class=\"benefit-name\">Great for Car, Desk & Home</td>\n    <td class=\"yes\">Yes</td>\n    <td class=\"no\">No</td>\n  </tr>\n</table>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_4HhFPQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.faq-wrap{max-width:750px;margin:30px auto;font-family:inherit}\n.faq-title{text-align:center;font-size:26px;font-weight:700;margin-bottom:20px}\n.faq-item{border:1px solid #ddd;border-radius:12px;margin-bottom:12px;overflow:hidden;background:#fff}\n.faq-item summary{padding:16px 18px;font-weight:600;cursor:pointer;list-style:none}\n.faq-item summary::-webkit-details-marker{display:none}\n.faq-item summary:after{content:\"+\";float:right;font-size:22px}\n.faq-item[open] summary:after{content:\"−\"}\n.faq-item p{padding:0 18px 16px;margin:0;color:#555;line-height:1.5}\n</style>\n\n<div class=\"faq-wrap\">\n  <div class=\"faq-title\">Frequently Asked Questions</div>\n\n  <details class=\"faq-item\">\n    <summary>What can this vacuum clean?</summary>\n    <p>It’s great for cleaning cars, keyboards, desks, sofas, drawers, crumbs, dust, and small messes.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Is it cordless?</summary>\n    <p>Yes, it is cordless and portable, making it easy to use anywhere.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>How does the 3-in-1 design work?</summary>\n    <p>It includes vacuum attachments and can also flip into an air blower for dust and tight spaces.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>How do I charge it?</summary>\n    <p>You can charge it using the included USB charging cable.</p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Is it good for car interiors?</summary>\n    <p>Yes, it’s perfect for cup holders, seats, dashboards, vents, and hard-to-reach spots.</p>\n  </details>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "1771945068374140eb": {
       "type": "apps",
@@ -421,6 +445,8 @@
     "scrolling_promotion_JfRXrr",
     "image_with_text_ryYm4w",
     "blocks_QfHYRP",
+    "custom_liquid_qAVPhX",
+    "custom_liquid_4HhFPQ",
     "1771945068374140eb",
     "guarantees_Yj7NaV",
     "1771850465e38b72c3"
