@@ -197,38 +197,6 @@
         "padding_bottom": 36
       }
     },
-    "scrolling_promotion_JfRXrr": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "announcement_8dYwTc": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_8dYwTc"
-      ],
-      "name": "t:sections.scrolling-promotion.presets.name",
-      "settings": {
-        "direction": "left",
-        "speed": 1.6,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_icon": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_background": "#264854",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_AMjrgi": {
       "type": "image-with-text",
       "blocks": {
@@ -273,6 +241,38 @@
         "colors_button_background": "#1a1b18",
         "colors_text": "#212326",
         "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_JfRXrr": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_8dYwTc": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_8dYwTc"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#264854",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -327,8 +327,27 @@
         "padding_bottom": 36
       }
     },
+    "blocks_QfHYRP": {
+      "type": "_blocks",
+      "name": "Benefits table",
+      "settings": {}
+    },
     "1771945068374140eb": {
       "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_kGJKdC": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_kGJKdC"
+      ],
       "settings": {
         "include_margins": true,
         "show_divider": false,
@@ -401,6 +420,7 @@
     "image_with_text_AMjrgi",
     "scrolling_promotion_JfRXrr",
     "image_with_text_ryYm4w",
+    "blocks_QfHYRP",
     "1771945068374140eb",
     "guarantees_Yj7NaV",
     "1771850465e38b72c3"
